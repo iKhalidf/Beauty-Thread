@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #c57ba1;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #90cc88;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: #fcb664;
+}
+
+
+::selection{
+    background: #90cc88;
+    color: #000000;
+}
+
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 10em;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 200px ;
+
+}   
+
+header img {
+    width: 200px;
+    float: center;
+
+ 
+}
+
+.navigation a{
+    color: #c57ba1;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.navigation a:hover{
+    color: #90cc88;
+} 
+
+
+
+.main{
+    padding: 250px 100px;
+    text-align: right;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    align-items: stretch;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+.main h2{
+    width: 100%;
+    color: #000000;
+    font-size: 6em;
+    font-weight: 600;
+    text-align: right;
+}
+
+.main h3{
+    width: 100%;
+    color: #90cc88;
+    font-size:3em;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+
+.main-bottom{
+    color: #ffffff;
+    background-color: #c57ba1;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+}
+
+.main-bottom:hover{
+    background-color: #a85881;
+    transform: scale(1.1);
+}
+
+
+.insta {
+    color: #fcb664;
+    font-size: 4em;
+    margin-right: 30px;
+    position: relative;
+    top: 16px;
+}
+
+
+.cards{
+    background: url(images/qoutes-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 4em;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 21.25em;
+    box-shadow: 0 5px 30px rgba(1 1 1 / 5%);
+    border-radius: 10px;
+    padding: 50px 25px;
+    margin: 20px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #90cc88;
+    font-size: 8em;
+    text-align: center;
+}
+
+
+.info{
+    text-align: center;
+}
+
+
+.info h3{
+    color: #c57ba1;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.projects{
+    background-color: #fdfdfd;
+    padding: 50px;
+}
+
+.projects .content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.project-card{
+    background-color: #ffffff;
+    box-shadow: 0 5px 30px rgba(1 1 1 / 5%);
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding: 2em;
+}
+
+.project-category{
+    font-size: 1em;
+    color: #000000;
+}
+
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 10PX;
+}
+
+.more-details{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fcb664; 
+}
+
+.more-details:hover{
+    color: #90cc88;
+}
+
+.more-than-this{
+    font-size: 2em;
+    color: #90cc88;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.هنا{
+    text-decoration: none;
+    color: #b417a7;
+    transition: 0.7s ease;
+    margin: 0px 7px;
+}
+
+.هنا:hover{
+    color: #fcb664;
+    transform: scale(1.05);
+}
+
+
+.card-contact{
+    padding: 100px 0px;
+}
+
+.content .icon {
+    font-size: 3.5em;   
+}
+
+.card-contact p{
+    text-align: center;
+    font-size: 1em;
+}
+    
+.card-contact h3{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer{
+    background-color: #90cc88;
+    color: #ffffff;
+    padding: 0.5em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-title {
+    font-size: 1.9em;
+    font-weight: 700;
+}
+
+.footer-title span {
+    color: darkslategray;
+}
+
+.insta-footer {
+    color: #ffffff;
+    font-size: 2em;
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
